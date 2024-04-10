@@ -12,5 +12,4 @@ public class SILab1_1 {
         return result;
     }
 
-
 }
