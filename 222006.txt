@@ -1,0 +1,50 @@
+4.
+mkdir SI_2024_lab1_222006
+Креираме директориум
+cd SI_2024_lab1_222006
+Влегуваме во директориумот
+git init
+Го иницијализираме git во директориум
+git status
+Правиме проверка, односно добиваме статус на креирани директориуми
+5.
+git remote add origin https://github.com/stejsi123/SI_2024_lab1_222006.git
+Со додавање на линкот од remote репозиториумот поврзуваме
+6. git add README.md.txt
+Со gitt add командата додаваме фајл во staging area
+Пред да направам commit ми побара да го внесам мојот mail i ime за дополнителна идентификација тоа го направив со следните команди:
+$ git config --global user.email "maksimovskaa7@gmail.com"
+$ git config --global user.name "Anastasija"
+*$ git commit -m "Initial commit"- Со оваа команда го правиме commit-от.
+7. git add SILab1Main.java  SILab1_1.java  SILab1_2.java
+Со оваа команда ги додаваме овие 3 фајлови.
+git commit -m "Add starter code". Со оваа команда правиме commit на сите фајлови.
+9. git brach bug1, git branch bug2- Со овие команди ја креираме гранката bug1, а потоа и гранката bug2.
+10. git checkout bug1- команда која не пренесува на гранката bug1.
+11.git commit -m "Fix wrong condition in filterOddLengthStrings"- Со оваа наредба креираме commit со дадената порака.
+12.13. Тука се истите команд и како 10 и 11 само се заменуваат со bug2
+15.17.-Во овие чекори правиме git commit -m""- во наводниците ја ставаме соодветната барана порака.
+18. git push-синхронизација на гранките со оддалечениот репозиториум.
+19. git checkout master-се префрламе на гранката master
+20. git merge bug1.-Тука се јавува конфликт од причина што имаме промена на bug1 гранката која не соодвестува со master гранката. Конфликтот го разрешив на тој начин што ги отворив локално фајловите потоа во деловите означени со <<<<<<< HEAD
+// 
+=======
+// 
+>>>>>>> 
+Го одбрав она на кое последно направив промена односно ги променив грешките така што старата верзија од кодот ја избришав. По ваквите направени промени спојувањето беше реализирано со горенаведените чекори, спојувањето е изведено по rec. начин.
+22. По промената на содржината на конфликтните фајлови со помош на командата git rebase master оваа опција се заврши успешно.
+25. Истата постапка како на 20.
+26. Синхронизацијата заврши успешно по што ја добив оваа порака 
+"Enumerating objects: 35, done.
+Counting objects: 100% (35/35), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (31/31), 2.90 KiB | 1.45 MiB/s, done.
+Total 31 (delta 19), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (19/19), completed with 3 local objects.
+To https://github.com/stejsi123/SI_2024_lab1_222006.git
+   b02c564..ed36ce9  master -> master"
+
+
+
+

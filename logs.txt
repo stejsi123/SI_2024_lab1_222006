@@ -1,0 +1,82 @@
+Anastasija@DESKTOP-H8Q75V1 MINGW64 ~/SI_2024_lab1_222006 (master)
+$ git log
+commit ed36ce9a8af03989b0c9c7ffee51c81b94a5321b (HEAD -> master, origin/master, bug2)
+Merge: 7b733b5 baef69a
+Author: Anastasija <maksimovskaa7@gmail.com>
+Date:   Wed Apr 10 23:49:36 2024 +0200
+
+    Merge master branch into bug1
+
+commit 7b733b5a259cb387c6b7a4c39964ae6618c1093e
+Merge: b02c564 70222df
+Author: Anastasija <maksimovskaa7@gmail.com>
+Date:   Wed Apr 10 23:41:41 2024 +0200
+
+    Merge master branch into bug1
+
+commit baef69ad639dc9a5e3dd19fdd71f1adc603c7113
+Author: Anastasija <maksimovskaa7@gmail.com>
+Date:   Wed Apr 10 23:09:25 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit ca10c421815b0f0a4239bbb6a236d09cf634e91e
+Author: Anastasija <maksimovskaa7@gmail.com>
+Date:   Wed Apr 10 23:05:47 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 70222df06492ca4ed0f9ed994e52fb6535fc4957 (bug1)
+Author: Anastasija <maksimovskaa7@gmail.com>
+Date:   Wed Apr 10 23:02:41 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit b02c5648f9a9bb07e3564ee8c750dcc17195b4ac
+Author: Anastasija <maksimovskaa7@gmail.com>
+Date:   Wed Apr 10 22:59:35 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 98e9b79bf04c94ca9fa88280ccb16adf09d60289
+Author: Anastasija <maksimovskaa7@gmail.com>
+Date:   Wed Apr 10 19:56:35 2024 +0200
+
+    Initial commit
+
+commit 95b70553ea8a2bbaee81d0ecc125db1ed804b947 (tmp)
+Author: stejsi123 <139148203+stejsi123@users.noreply.github.com>
+Date:   Wed Apr 10 22:21:35 2024 +0200
+
+    Add files via upload
+
+commit 717c872c18ba000c1e7a9d7996086bcf51bf9f5f
+Author: Anastasija <maksimovskaa7@gmail.com>
+Date:   Wed Apr 10 22:08:00 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit b40226515e061fdf6c9e925d1d7c17eda73c3b07
+Author: Anastasija <maksimovskaa7@gmail.com>
+Date:   Wed Apr 10 22:00:47 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit f5d9a569012c8873fe367e0e0aa655817b0e0326
+Author: Anastasija <maksimovskaa7@gmail.com>
+Date:   Wed Apr 10 20:11:08 2024 +0200
+
+    Add starter code
+
+commit e199bf0a6ae53c3f68e6bddf618eb0c1e87e2cc7
+Author: Anastasija <maksimovskaa7@gmail.com>
+Date:   Wed Apr 10 19:56:35 2024 +0200
+
+    Initial commit
+
+commit c2a23ceeda4005ec287d08315aac3453a4f61846
+Author: stejsi123 <139148203+stejsi123@users.noreply.github.com>
+Date:   Wed Apr 10 19:20:59 2024 +0200
+
+    Initial commit
+(END)
